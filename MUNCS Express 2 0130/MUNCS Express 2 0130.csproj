@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Kevin\Downloads\MUNCS Express 2 0130\MUNCS Express 2 0130.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{578B3CEA-481A-42FB-B6AB-8961D65C4E5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>MUNCS Express 2 Rebuild</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>2.0.1.25</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>MUNCS_E2</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="USAA_Gen2Library">
+      <HintPath>lib\USAA_Gen2Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomTextbox.cs" />
+    <Compile Include="Overall.cs" />
+    <Compile Include="StartForm.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="SpeakersListSource.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Arrow_Down.png" />
+    <EmbeddedResource Include="Arrow_Down_Active.png" />
+    <EmbeddedResource Include="Back_Trans.png" />
+    <EmbeddedResource Include="Back_Trans_Active.png" />
+    <EmbeddedResource Include="Background_1.jpg" />
+    <EmbeddedResource Include="Background_10.jpg" />
+    <EmbeddedResource Include="Background_11.jpg" />
+    <EmbeddedResource Include="Background_12.jpg" />
+    <EmbeddedResource Include="Background_13.jpg" />
+    <EmbeddedResource Include="Background_14.jpg" />
+    <EmbeddedResource Include="Background_15.jpg" />
+    <EmbeddedResource Include="Background_16.jpg" />
+    <EmbeddedResource Include="Background_17.jpg" />
+    <EmbeddedResource Include="Background_18.jpg" />
+    <EmbeddedResource Include="Background_19.jpg" />
+    <EmbeddedResource Include="Background_2.jpg" />
+    <EmbeddedResource Include="Background_20.jpg" />
+    <EmbeddedResource Include="Background_3.jpg" />
+    <EmbeddedResource Include="Background_4.jpg" />
+    <EmbeddedResource Include="Background_5.jpg" />
+    <EmbeddedResource Include="Background_6.jpg" />
+    <EmbeddedResource Include="Background_7.jpg" />
+    <EmbeddedResource Include="Background_8.jpg" />
+    <EmbeddedResource Include="Background_9.jpg" />
+    <EmbeddedResource Include="I_0.png" />
+    <EmbeddedResource Include="I_1.png" />
+    <EmbeddedResource Include="I_2.png" />
+    <EmbeddedResource Include="I_3.png" />
+    <EmbeddedResource Include="I_4.png" />
+    <EmbeddedResource Include="I_5.png" />
+    <EmbeddedResource Include="I_6.png" />
+    <EmbeddedResource Include="I_7.png" />
+    <EmbeddedResource Include="Logo.png" />
+    <EmbeddedResource Include="Logo_Trans.png" />
+    <EmbeddedResource Include="MainForm.resx" />
+    <EmbeddedResource Include="ME_2.png" />
+    <EmbeddedResource Include="Resources.resx" />
+    <EmbeddedResource Include="StartForm.resx" />
+    <EmbeddedResource Include="Widget_1.png" />
+    <EmbeddedResource Include="Widget_2.png" />
+    <EmbeddedResource Include="Widget_3.png" />
+    <EmbeddedResource Include="Widget_4.png" />
+    <EmbeddedResource Include="Widget_5.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
